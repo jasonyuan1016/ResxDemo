@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>多语言载入示范</title>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./js/index.js"></script>
+        <select id="sltLang" onchange="changeLang()">
+            <option value="en-us">English</option>
+            <option value="fr-fr">Français</option>
+            <option value="jp-jp">日本語</option>
+            <option value="zh-cn">简体中文</option>
+        </select>
+        <div gr-id="welcome"></div>
+        <div gr-id="greeting"></div>
+        <div pr-id="account"></div>
+        <div pr-id="product_name"></div>
+        <div pr-id="product_price"></div>
+        <div id="divLoadResxInJs"></div>
+        <div id="divLongText" pr-id="test_long_text"></div>
+    </body>
+</html>
